@@ -55,6 +55,12 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
 }
+#errorMsg{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
 .book_card{
     background: lightgray;
     padding: 15px;
