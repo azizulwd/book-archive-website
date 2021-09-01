@@ -48,6 +48,18 @@ body{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+#book_container{
+    width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.book_card{
+    background: lightgray;
+    padding: 15px;
+    border-radius: 10px;
+}
 h1{
     text-align: center;
     margin-top: 50px;
