@@ -39,6 +39,7 @@ const displayBooks = books => {
             <p><span style="font-weight: bold">First Publish: </span>${book.first_publish_year}</p>
             <p><span style="font-weight: bold">Publisher: </span>${book.publisher[0]}</p>
         `;
+
         bookContainer.appendChild(createDiv);
     });
     
