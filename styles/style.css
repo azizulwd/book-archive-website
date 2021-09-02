@@ -12,8 +12,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    background: lightgray;
 }
 
 
@@ -24,14 +25,14 @@ body{
     width: 500px;
     margin: 0 auto;
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 #search_control input {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid blue;
+    border: 1px solid #000;
     outline: none;
     font-family: 'Poppins', sans-serif;
     border-top-left-radius: 10px;
@@ -40,8 +41,8 @@ body{
 #search_control button {
     padding: 10px;
     font-size: 16px;
-    border: 1px solid blue;
-    background: blue;
+    border: 1px solid #000;
+    background: #000;
     color: white;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
@@ -55,19 +56,29 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
 }
-#errorMsg{
+#errorMsg, #showingBooks{
     color: red;
     font-weight: bold;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 20px;
+}
+#showingBooks{
+    color: green;
 }
 .book_card{
-    background: lightgray;
+    background: #fff;
+    box-shadow: 0 0 5px gray;
     padding: 15px;
     border-radius: 10px;
 }
 h1{
     text-align: center;
     margin-top: 50px;
-    color: blue;
+    color: #000;
+}
+h2{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
 }
