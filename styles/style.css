@@ -67,7 +67,7 @@ body {
 #showingBooks{
     color: green;
 }
-.book_card{
+.book_card {
     background: #fff;
     box-shadow: 0 0 5px gray;
     padding: 15px;
